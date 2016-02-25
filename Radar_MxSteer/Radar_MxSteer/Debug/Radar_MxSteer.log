@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/7/7 14:14:55。
+     1>项目“C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Radar_MxSteer\Radar_MxSteer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\kaining\documents\visual studio 2013\projects\radar_mxsteer\radar_mxsteer\main.cpp(44): warning C4101: “position”: 未引用的局部变量
+     1>c:\users\kaining\documents\visual studio 2013\projects\radar_mxsteer\radar_mxsteer\main.cpp(44): warning C4101: “speed”: 未引用的局部变量
+     1>c:\users\kaining\documents\visual studio 2013\projects\radar_mxsteer\radar_mxsteer\main.cpp(172): warning C4353: 使用了非标准扩展:  常量 0 作为了函数表达式。  请改用“__noop”内部函数
+     1>c:\users\kaining\documents\visual studio 2013\projects\radar_mxsteer\radar_mxsteer\main.cpp(124): warning C4101: “receive”: 未引用的局部变量
+     1>c:\users\kaining\documents\visual studio 2013\projects\radar_mxsteer\radar_mxsteer\main.cpp(52): warning C4715: “initSteer”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Debug\Radar_MxSteer.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Debug\Radar_MxSteer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Debug\Radar_MxSteer.lib" /MACHINE:X86 Debug\data_collection.obj
+         Debug\main.obj
+         Debug\MXSteer.obj
+         Debug\SerialPort.obj
+         Debug\Serial_Port.obj
+         Radar_MxSteer.vcxproj -> C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Debug\Radar_MxSteer.exe
+     1>已完成生成项目“C:\Users\kaining\Documents\Visual Studio 2013\Projects\Radar_MxSteer\Radar_MxSteer\Radar_MxSteer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.03
